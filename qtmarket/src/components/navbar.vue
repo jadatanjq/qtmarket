@@ -1,7 +1,7 @@
 <style>
 #navbar-header {
-    background-color: #EBEAEB;
-    position: absolute;
+    background-color: #F5F5F5;
+    position: relative;
     top: 0;
     margin: 0;
     width: 100%;
@@ -38,13 +38,17 @@
                         <span class="bi bi-list"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse justify-content-between text-center"
+                    <div class="collapse navbar-collapse text-center"
                         id="navbarSupportedContent">
  
                         <ul class="navbar-nav ms-2">
 
                             <li class="nav-item active px-3 my-2">
-                                <router-link to="/" class="hi">Products</router-link>
+                                <router-link to="/" class="hi">Home</router-link>
+                            </li>
+
+                            <li class="nav-item active px-3 my-2">
+                                <router-link to="/products" class="hi">Products</router-link>
                             </li>
 
                             <li class="nav-item px-3 my-2">
@@ -52,19 +56,19 @@
                             </li>
 
                             <li class="nav-item px-3 my-2">
+                                <router-link to="/notifications" class="hi">Notifications</router-link>
+                            </li>
+
+                            <li class="nav-item px-3 my-2">
+                                <router-link to="/cart" class="hi"><input type = 'text' placeholder='search' class="form-control w-100 h-50 rounded-pill" > <img src = 'https://cdn-icons-png.flaticon.com/128/9412/9412704.png' width="25"></router-link>
+                            </li>
+
+                            <li class="nav-item px-3 my-2">
                                 <router-link to="/cart" class="hi">Cart <img src = 'https://cdn-icons-png.flaticon.com/128/2567/2567829.png' width="35"></router-link>
                             </li>
 
                             <li class="nav-item px-3 my-2">
-                                <router-link to="/cart" class="hi">Search <img src = 'https://cdn-icons-png.flaticon.com/128/2567/2567829.png' width="35"></router-link>
-                            </li>
-
-                            <li class="nav-item px-3 my-2">
-                                <router-link to="/promo" class="hi">Promotion</router-link>
-                            </li>
-
-                            <li class="nav-item px-3 my-2">
-                                <router-link to="/acc" class="hi">Account <img src='https://cdn-icons-png.flaticon.com/128/1077/1077063.png' width="25"></router-link>
+                                <router-link to="/account" class="hi">Log In <img src='https://cdn-icons-png.flaticon.com/128/1077/1077063.png' width="25"></router-link>
                             </li>
 
                         </ul>
