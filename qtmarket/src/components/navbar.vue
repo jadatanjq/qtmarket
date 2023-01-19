@@ -30,12 +30,12 @@
     <div class="row">
         <div class="navbar-header" id="navbar-header">
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-md">
+                <nav class="navbar navbar-expand-sm">
                     <img src="https://cdn-icons-png.flaticon.com/512/4483/4483093.png" style="width: 50px">
                     <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="bi bi-list"></span>
+                        <span class="bi bi-list">=</span>
                     </button>
 
                     <div class="collapse navbar-collapse text-center"

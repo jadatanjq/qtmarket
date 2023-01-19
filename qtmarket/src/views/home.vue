@@ -1,12 +1,12 @@
 <style>
-  div {
-      background-color: #F5F5F5;
+    .box {
+        background-color: #F5F5F5;
+        height: 100vh;
+    }
 
-  }
-
-  p, span {
-    color: #4C424C;
-  }
+    p, span {
+        color: #4C424C;
+    }
 </style>
 
 <template>
@@ -15,7 +15,7 @@
         <strong>CNY Promotion!</strong> Get 10% off with minimum spend $150. QUOTE: "CNY23" 
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
-    <div class = 'container-fluid'>
+    <div class = 'container-fluid box'>
         <!-- top 3 best selling products -->
         <div class="row">
             <div class = 'col'>
