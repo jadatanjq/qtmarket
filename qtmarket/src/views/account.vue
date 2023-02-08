@@ -52,7 +52,8 @@
 
         </div>
         <div class = 'col-3'>
-            <img src = 'https://cdn-icons-png.flaticon.com/128/1077/1077063.png' width="40">  <span>Hello, {{username}}!</span>
+            <span>Hello, {{username}}! &nbsp;</span>
+            <img src = 'https://cdn-icons-png.flaticon.com/128/1077/1077063.png' width="40">  
         </div>
     </div>
 
