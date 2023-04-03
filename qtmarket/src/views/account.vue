@@ -84,7 +84,7 @@
 
         <div v-else class ='col-10 mt-5'>
             <div class="row">
-                <select v-model="current" class="form-control w-25">
+                <select v-model="current" class="form-select w-25">
                     <option value = 'all'>All orders</option>
                     <option value = 'pay'>To Pay</option>
                     <option value = 'ship'>To Ship</option>

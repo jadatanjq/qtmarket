@@ -24,6 +24,14 @@
     text-decoration: none;
 }
 
+.searchicon {
+    background-color: #78677a;
+}
+
+.searchbar {
+    input-background-color: #78677a;
+}
+
 </style>
 
 <template>
@@ -60,7 +68,12 @@
                             </li>
 
                             <li class="nav-item px-3 my-2">
-                                <router-link to="/cart" class="hi"><input type = 'text' placeholder='search' class="form-control w-100 h-50 rounded-pill" > <img src = 'https://cdn-icons-png.flaticon.com/128/9412/9412704.png' width="25"></router-link>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control rounded-pill rounded-end searchbar" placeholder="Search" aria-label="Search" aria-describedby="search">
+                                    <span class="rounded-pill rounded-start searchicon" id="search">
+                                        <button class="btn"><img src = 'https://cdn-icons-png.flaticon.com/128/9412/9412704.png' width="25"></button>
+                                    </span>
+                                </div>
                             </li>
 
                             <li class="nav-item px-3 my-2">
@@ -69,6 +82,9 @@
 
                             <li class="nav-item px-3 my-2">
                                 <router-link to="/account" class="hi">Log In <img src='https://cdn-icons-png.flaticon.com/128/1077/1077063.png' width="25"></router-link>
+                            </li>
+                            <li class="nav-item px-3 my-2">
+                                <router-link to="/owner" class="hi">owner <img src='https://cdn-icons-png.flaticon.com/128/1077/1077063.png' width="25"></router-link>
                             </li>
 
                         </ul>

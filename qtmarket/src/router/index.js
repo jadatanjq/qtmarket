@@ -5,6 +5,7 @@ import info from "@/views/info.vue"
 import cart from "@/views/cart.vue"
 import products from "@/views/products.vue"
 import account from "@/views/account.vue"
+import owner from "@/views/owner.vue"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,6 +35,11 @@ const router = createRouter({
       name: 'account',
       component: account
     },
+    {
+      path: '/owner',
+      name: 'owner',
+      component: owner
+    }
   ]
 })
 
